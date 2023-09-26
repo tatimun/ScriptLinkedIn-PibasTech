@@ -10,9 +10,8 @@ A script used for connecting automatically using Python and Selenium (along with
  - [ChromeDriver](https://community.chocolatey.org/packages/chromedriver) (Yo lo utilice con Chocolatey) 
   Tiene que coincidir con la version de tu Chrome Browser si queres que funcione
  - [Credenciales de Google API](https://console.cloud.google.com/apis/) (Spreadsheet y Drive, habra que generarlas y agregarlas al path de este directorio. credentials.json )
-
+ 
  - Una cuenta de LinkedIn :D
-
 
 
  ### Pasos:
@@ -26,3 +25,4 @@ A script used for connecting automatically using Python and Selenium (along with
  CUIDADO, LinkedIn a veces pide verificar que no seas robot, tenes 15 segundos para pasar la verificacion jaja
 
 
+NOTA: Hay un archivo de TestSelenium.SIDE para Selenium IDE, unicamente de la parte para conectar con un perfil de Linkedin previamente declarado
