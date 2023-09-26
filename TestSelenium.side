@@ -1,0 +1,68 @@
+{
+  "id": "96f16a20-920a-4e56-8c00-304c8b7efae0",
+  "version": "2.0",
+  "name": "test",
+  "url": "https://www.linkedin.com",
+  "tests": [{
+    "id": "936e9d28-2c93-47a1-9f14-3a75c96e0730",
+    "name": "Untitled",
+    "commands": [{
+      "id": "0563c3f2-16d0-4dd6-8f9f-6e585868b94f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.linkedin.com/in/sharon-ponce-de-leon/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bda1d66-9840-42eb-9b27-f161a46b2712",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[3]/div/div[2]/button",
+      "targets": [
+        ["id=ember115", "id"],
+        ["css=#ember115", "css:finder"],
+        ["xpath=//button[@id='ember115']", "xpath:attributes"],
+        ["xpath=//div[@id='ember114']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0968cc5-9243-463c-ab1d-c3e9af0ed859",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/div/div/ul/li[3]/div",
+      "targets": [
+        ["id=ember94", "id"],
+        ["css=#ember94", "css:finder"],
+        ["xpath=//div[@id='ember94']", "xpath:attributes"],
+        ["xpath=//div[@id='ember91']/div/ul/li[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d0f5c32-c29e-42b0-bdc6-feb648114290",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Enviar')]",
+      "targets": [
+        ["id=ember223", "id"],
+        ["css=#ember223", "css:finder"],
+        ["xpath=//button[@id='ember223']", "xpath:attributes"],
+        ["xpath=//div[@id='ember221']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d40f81aa-9009-4fb6-8ef2-55ca05775ee3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["936e9d28-2c93-47a1-9f14-3a75c96e0730"]
+  }],
+  "urls": ["https://www.linkedin.com/"],
+  "plugins": []
+}
