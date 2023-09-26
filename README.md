@@ -8,8 +8,8 @@ A script used for connecting automatically using Python and Selenium (along with
 
  - [Python](https://www.python.org)
  - [ChromeDriver](https://community.chocolatey.org/packages/chromedriver) (Yo lo utilice con Chocolatey) 
-  Tiene que coincider con la version de tu Chrome Browser si queres que funcione
- - [Credenciales de Google API](https://console.cloud.google.com/apis/) (Spreadsheet y Drive, habra que generarlas y agregarlas al path de este directorio)
+  Tiene que coincidir con la version de tu Chrome Browser si queres que funcione
+ - [Credenciales de Google API](https://console.cloud.google.com/apis/) (Spreadsheet y Drive, habra que generarlas y agregarlas al path de este directorio. credentials.json )
 
  - Una cuenta de LinkedIn :D
 
