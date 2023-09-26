@@ -25,4 +25,4 @@ A script used for connecting automatically using Python and Selenium (along with
  CUIDADO, LinkedIn a veces pide verificar que no seas robot, tenes 15 segundos para pasar la verificacion jaja
 
 
-NOTA: Hay un archivo de TestSelenium.SIDE para Selenium IDE, unicamente de la parte para conectar con un perfil de Linkedin previamente declarado
+NOTA: Hay un archivo de TestSelenium.SIDE para Selenium IDE, unicamente de la parte para conectar con un perfil de Linkedin previamente declarado. En proceso, para automatizarlo unicamente con Selenium
