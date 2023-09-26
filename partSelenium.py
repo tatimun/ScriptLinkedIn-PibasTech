@@ -27,26 +27,20 @@ with open('archivo.csv', 'r') as file:
             print(link)
             driver.get(link)
             time.sleep(5)
-            # mas_button = driver.find_element(By.ID, 'ember338')
 
-            # select = Select(mas_button)
-
-            # select.select_by_visible_text("Conectar")
             
             element = driver.find_element("xpath", '//div[3]/div/div[2]/button')
 
-            # Realizar acciones con el elemento encontrado
             element.click()
-            time.sleep(10)
-            print("hasta aca")
+            time.sleep(5)
+
             element2 = driver.find_element("xpath", '//div[2]/div/div/ul/li[3]/div')
             element2.click()
-
-            print("hasta aca2")
-            time.sleep(15)
+          
+            time.sleep(5)
             element3 = driver.find_element("xpath", '//button[contains(., "Enviar")]')
             element3.click()
-            # print("Se agrego a " + link)
+
 
 driver.quit()
     
